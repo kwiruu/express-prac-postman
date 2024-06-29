@@ -1,0 +1,23 @@
+{
+  "name": "express-prac_2",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules --exec babel-node index.js",
+    "debug": "set DEBUG=express:*; nodemon --experimental-modules --exec babel-node index.js"
+  },
+  "author": "Keiru Cabili",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  }
+}
